@@ -1,0 +1,12 @@
+[16-Sep-2013 06:05:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE = MYISAM' at line 6 for query CREATE TABLE IF NOT EXISTS `wp_tantan_wordpress_s3_cache` (
+                `request` VARCHAR( 255 ) NOT NULL ,
+                `response` TEXT NOT NULL ,
+                `timestamp` DATETIME NOT NULL ,
+                PRIMARY KEY ( `request` )
+            ) TYPE = MYISAM made by require_once('wp-admin/admin.php'), do_action('settings_page_tantan-s3-cloudfront/wordpress-s3/class-plugin'), call_user_func_array, TanTanWordPressS3Plugin->admin, TanTanS3->initCacheTables
+[16-Sep-2013 06:05:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE = MYISAM' at line 6 for query CREATE TABLE IF NOT EXISTS `wp_tantan_wordpress_s3_cache` (
+                `request` VARCHAR( 255 ) NOT NULL ,
+                `response` TEXT NOT NULL ,
+                `timestamp` DATETIME NOT NULL ,
+                PRIMARY KEY ( `request` )
+            ) TYPE = MYISAM made by require_once('wp-admin/admin.php'), do_action('settings_page_tantan-s3-cloudfront/wordpress-s3/class-plugin'), call_user_func_array, TanTanWordPressS3Plugin->admin, TanTanS3->initCacheTables
